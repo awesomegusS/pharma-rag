@@ -291,7 +291,7 @@ logic. They run without any API keys or model weights.
 - **Structured output extraction** — a second LLM pass to extract specific fields
   (lot numbers, dates, certifications) into a structured JSON record
 - **User authentication** for multi-user deployments
-- **Precision of retrieved chunks**
+- **Precision@4 of retriever** 
 - **Evaluation over more examples/test samples**
 - **CI/CD**
 
