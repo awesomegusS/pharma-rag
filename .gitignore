@@ -1,0 +1,31 @@
+# Model weights (too large for git — download at runtime)
+models/
+*.gguf
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.venv
+
+# Runtime outputs
+chat_history.txt
+eval_results_*.csv
+eval_summary_*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

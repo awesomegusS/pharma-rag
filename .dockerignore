@@ -1,0 +1,14 @@
+models/
+*.gguf
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+chat_history.txt
+eval_results_*.csv
+eval_summary_*.json
