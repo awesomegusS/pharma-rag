@@ -112,7 +112,7 @@ Evaluated on 16 ground-truth queries across 2 test documents
 | Recall@4 | 100% | > 80% |
 | Mean Reciprocal Rank (MRR) | 1.0 | > 0.70 |
 | Precision@4 | 35.3% | > 70% |
-| Hit Rate | — | 100% |
+| Hit Rate | 100% | 100% |
 
 ### End-to-End Accuracy
 
@@ -291,6 +291,9 @@ logic. They run without any API keys or model weights.
 - **Structured output extraction** — a second LLM pass to extract specific fields
   (lot numbers, dates, certifications) into a structured JSON record
 - **User authentication** for multi-user deployments
+- **Precision of retrieved chunks**
+- **Evaluation over more examples/test samples**
+- **CI/CD**
 
 ---
 
